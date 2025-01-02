@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title and Fav Icon -->
+    <title> World Canvas </title>
+    <link rel="shortcut icon" href="./src/img/favIcon.png" type="image/x-icon">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+    <!-- APP -->
+    <div id="app">
+
+        <!-- Canvas -->
+        <canvas id="gameCanvas"></canvas>
+
+        <!-- Div containers for all menus -->
+        <div id="menu-container">
+
+            <!-- Menu to add colors -->
+            <div id="add-color-menu">
+                <p>Add Color</p>
+                <input id="add-color-input" type="text" placeholder="#a1b2c3">
+                <button id="add-color-btn">Add</button>
+                <button id="add-random-color-btn">Random</button>
+            </div>
+
+            <!-- Menu to choose a color -->
+            <div id="color-picker-menu">
+                <!-- Generated using JS -->
+            </div>
+
+            <!-- Menu to change username -->
+            <div id="username-menu">
+                <input id="username-input" type="text" placeholder="Username" maxlength="12">
+                <button id="change-username-btn">Change</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Js Scripts -->
+    <script type="module" src="./src/js/app.js"></script>
+</body>
+
+</html>
