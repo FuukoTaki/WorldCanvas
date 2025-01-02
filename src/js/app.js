@@ -251,7 +251,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     update(ref(database, "canvas"), pixelModified);
                 });
 
-                // Update mouse X an Y coordinates eacn time it moves on canvas.
+                // Update mouse X an Y coordinates each time it moves on canvas.
                 canvas.addEventListener("mousemove", (e) => {
 
                     // Get mouse new coordinates.
